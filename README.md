@@ -1,6 +1,6 @@
 ES6 CLASSES
 
-EXAMPLE 1 WITHOUT METHODS
+# EXAMPLE 1 WITHOUT METHODS
 
 // named
 var Polygon = class Polygon {
@@ -12,7 +12,7 @@ var Polygon = class Polygon {
 VAR hex = new Polygon(100,100)
 
 
-EXAMPLE  1 WITH METHODS
+# EXAMPLE  1 WITH METHODS
 class Car {
    constructor(name) {
        // - this is the newly created object
