@@ -36,13 +36,11 @@ class Car {
        console.log('this.name');
    }
 }
-var mazda = new Car('Mazda');
+
 ```
 
 
 
-
-//ES5
 ##ES5 EXAMPLE
 ```javascript
 let car = new Vehicle('Tesla', 'car');
@@ -66,7 +64,9 @@ console.log(car.getName()); // Tesla
 console.log(car.getType()); // car
 ```
 
-##ANOTHER ES6 EXAMPLE
+##ANOTHER ES6 EXAMPLE (using SET and GET Methods)
+Getter gets the VALUE of a specific PROPERTY (getting the name of the car)
+Setter is a method that SETS the VALUE of a specific PROPERTY
 
 ```javascript
 class Car {
@@ -105,6 +105,23 @@ class Vehicle {
   }
  
 }
+
+
+##Example: Getting and Setting 
+
+```javascript
+class GetThings
+constructors(size) {
+this.length = size;
+}
+get Length() {
+   return this.length;
+}
+set Length (value) {
+this. length = value ;
+console.log(“the value has been set”);
+}}
+
 ```
 
 
